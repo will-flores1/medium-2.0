@@ -17,13 +17,15 @@ function Banner() {
 				</h2>
 			</div>
 
-			<Image
-				className="hidden md:inline-flex h-32 lg:h-full"
-				src="https://accountabilitylab.org/wp-content/uploads/2020/03/Medium-logo.png"
-				width={500}
-				height={500}
-				alt=""
-			/>
+			<div className="hidden md:inline-flex h-42 lg:h-full">
+				<Image
+					className="hidden md:inline-flex h-32 lg:h-full"
+					src="https://accountabilitylab.org/wp-content/uploads/2020/03/Medium-logo.png"
+					width={500}
+					height={500}
+					alt=""
+				/>
+			</div>
 		</div>
 	);
 }
