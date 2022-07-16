@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function Banner() {
 	return (
@@ -16,9 +17,11 @@ function Banner() {
 				</h2>
 			</div>
 
-			<img
+			<Image
 				className="hidden md:inline-flex h-32 lg:h-full"
 				src="https://accountabilitylab.org/wp-content/uploads/2020/03/Medium-logo.png"
+				width={500}
+				height={500}
 				alt=""
 			/>
 		</div>
