@@ -24,7 +24,7 @@ const Home = ({ posts }: Props) => {
 
 			<div className=" grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 p-2 md:p-6">
 				{posts.map((post) => (
-					<Link key={post._id} href={`/post/${post.slug.current}`}>
+					<Link key={post._id} href={`/post/${post.slug.current}`} passHref>
 						<div className="border rounded-lg group cursor-pointer overflow-hidden">
 							<Image
 								className="h-60 w-full object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out"
